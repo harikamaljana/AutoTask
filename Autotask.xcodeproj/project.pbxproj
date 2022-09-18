@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E022658F282D842800279ACE /* OrangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022658E282D842800279ACE /* OrangeApp.swift */; };
+		E0226591282D842800279ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0226590282D842800279ACE /* ContentView.swift */; };
+		E0226593282D842A00279ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0226592282D842A00279ACE /* Assets.xcassets */; };
+		E0226596282D842A00279ACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0226595282D842A00279ACE /* Preview Assets.xcassets */; };
+		E02EC32E283998DA00A2A27C /* AllTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02EC32D283998DA00A2A27C /* AllTasksView.swift */; };
+		E05598FE282EB8A30062B086 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05598FD282EB8A30062B086 /* DayView.swift */; };
+		E073C26D283549A00062065E /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073C26C2835499F0062065E /* CustomAlertView.swift */; };
+		E0DC6E5E2833F77700DE5CDD /* ScheduleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6E5C2833F77700DE5CDD /* ScheduleDataModel.xcdatamodeld */; };
+		E0DC6E602833F78B00DE5CDD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6E5F2833F78B00DE5CDD /* CoreDataManager.swift */; };
+		E0DC6E622833F99200DE5CDD /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6E612833F99200DE5CDD /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E022658B282D842800279ACE /* Autotask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autotask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E022658E282D842800279ACE /* OrangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeApp.swift; sourceTree = "<group>"; };
+		E0226590282D842800279ACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0226592282D842A00279ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0226595282D842A00279ACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E02EC32D283998DA00A2A27C /* AllTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksView.swift; sourceTree = "<group>"; };
+		E05598FD282EB8A30062B086 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		E073C26C2835499F0062065E /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		E0DC6E5D2833F77700DE5CDD /* ScheduleDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScheduleDataModel.xcdatamodel; sourceTree = "<group>"; };
+		E0DC6E5F2833F78B00DE5CDD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E0DC6E612833F99200DE5CDD /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0226588282D842800279ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0226582282D842800279ACE = {
+			isa = PBXGroup;
+			children = (
+				E022658D282D842800279ACE /* Orange */,
+				E022658C282D842800279ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E022658C282D842800279ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E022658B282D842800279ACE /* Autotask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E022658D282D842800279ACE /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				E022658E282D842800279ACE /* OrangeApp.swift */,
+				E0226590282D842800279ACE /* ContentView.swift */,
+				E0DC6E5B2833F73F00DE5CDD /* Views */,
+				E0DC6E5A2833F72C00DE5CDD /* Managers */,
+				E0226592282D842A00279ACE /* Assets.xcassets */,
+				E0226594282D842A00279ACE /* Preview Content */,
+			);
+			path = Orange;
+			sourceTree = "<group>";
+		};
+		E0226594282D842A00279ACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0226595282D842A00279ACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0DC6E5A2833F72C00DE5CDD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC6E5F2833F78B00DE5CDD /* CoreDataManager.swift */,
+				E0DC6E5C2833F77700DE5CDD /* ScheduleDataModel.xcdatamodeld */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E0DC6E5B2833F73F00DE5CDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E05598FD282EB8A30062B086 /* DayView.swift */,
+				E0DC6E612833F99200DE5CDD /* AddView.swift */,
+				E073C26C2835499F0062065E /* CustomAlertView.swift */,
+				E02EC32D283998DA00A2A27C /* AllTasksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E022658A282D842800279ACE /* Autotask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0226599282D842A00279ACE /* Build configuration list for PBXNativeTarget "Autotask" */;
+			buildPhases = (
+				E0226587282D842800279ACE /* Sources */,
+				E0226588282D842800279ACE /* Frameworks */,
+				E0226589282D842800279ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autotask;
+			productName = Orange;
+			productReference = E022658B282D842800279ACE /* Autotask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0226583282D842800279ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E022658A282D842800279ACE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E0226586282D842800279ACE /* Build configuration list for PBXProject "Autotask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0226582282D842800279ACE;
+			productRefGroup = E022658C282D842800279ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E022658A282D842800279ACE /* Autotask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0226589282D842800279ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0226596282D842A00279ACE /* Preview Assets.xcassets in Resources */,
+				E0226593282D842A00279ACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0226587282D842800279ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DC6E622833F99200DE5CDD /* AddView.swift in Sources */,
+				E073C26D283549A00062065E /* CustomAlertView.swift in Sources */,
+				E0DC6E602833F78B00DE5CDD /* CoreDataManager.swift in Sources */,
+				E0226591282D842800279ACE /* ContentView.swift in Sources */,
+				E0DC6E5E2833F77700DE5CDD /* ScheduleDataModel.xcdatamodeld in Sources */,
+				E02EC32E283998DA00A2A27C /* AllTasksView.swift in Sources */,
+				E05598FE282EB8A30062B086 /* DayView.swift in Sources */,
+				E022658F282D842800279ACE /* OrangeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0226597282D842A00279ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0226598282D842A00279ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E022659A282D842A00279ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orange/Preview Content\"";
+				DEVELOPMENT_TEAM = S2U7D3489N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viscorp.Orange;
+				PRODUCT_NAME = Autotask;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E022659B282D842A00279ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orange/Preview Content\"";
+				DEVELOPMENT_TEAM = S2U7D3489N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viscorp.Orange;
+				PRODUCT_NAME = Autotask;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0226586282D842800279ACE /* Build configuration list for PBXProject "Autotask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0226597282D842A00279ACE /* Debug */,
+				E0226598282D842A00279ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0226599282D842A00279ACE /* Build configuration list for PBXNativeTarget "Autotask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E022659A282D842A00279ACE /* Debug */,
+				E022659B282D842A00279ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0DC6E5C2833F77700DE5CDD /* ScheduleDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0DC6E5D2833F77700DE5CDD /* ScheduleDataModel.xcdatamodel */,
+			);
+			currentVersion = E0DC6E5D2833F77700DE5CDD /* ScheduleDataModel.xcdatamodel */;
+			path = ScheduleDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E0226583282D842800279ACE /* Project object */;
+}
